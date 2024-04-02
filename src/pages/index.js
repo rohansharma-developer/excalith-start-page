@@ -6,6 +6,9 @@ import "@fontsource/fira-code/400.css"
 import "@fontsource/fira-code/600.css"
 import { useSettings } from "@/context/settings"
 import { fetchAsset } from "@/utils/fetchAsset"
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
 
 export default function Home() {
 	const { settings } = useSettings()
