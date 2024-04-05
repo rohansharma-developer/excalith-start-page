@@ -37,7 +37,7 @@ const Link = ({ linkData, filter, selection }) => {
 				} inline-block px-1 rounded-selection`}
 				href={url}
 				rel="noopener noreferrer nofollow"
-				target={target}>
+				target="_blank">
 				<span className="inline-block w-4 h-4 align-middle">
 					<Icon icon={icon} />
 				</span>
